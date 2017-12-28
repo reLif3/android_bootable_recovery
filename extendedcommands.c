@@ -496,8 +496,8 @@ int control_usb_storage_for_lun(Volume* vol, bool enable) {
         TARGET_USE_CUSTOM_LUN_FILE_PATH,
 #endif
         "/sys/devices/platform/usb_mass_storage/lun%d/file",
-        "/sys/class/android_usb/android0/f_mass_storage/lun/file",
-        "/sys/class/android_usb/android0/f_mass_storage/lun_ex/file",
+        "/sys/class/android_usb/android0/f_mass_storage/lun0/file",
+        "/sys/class/android_usb/android0/f_mass_storage/lun1/file",
         NULL
     };
 
